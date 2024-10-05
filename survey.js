@@ -7,7 +7,7 @@ console.log(chalk.blue('Hello') + ' Chalk' + chalk.bold.red(' World!'));
 
 const name = await input({ message: 'What is your name?'});
 console.log(say({text: `Hello ${name}`, e: "o-"}));
-console.log(`Hello again ${name}.`);
+console.log(`Hello again ${name}`);
 
 const countries = await checkbox({
     message: 'What country would you like to visit?',

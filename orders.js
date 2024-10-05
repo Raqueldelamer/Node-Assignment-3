@@ -6,7 +6,6 @@ import { drinkOrders } from './orders/drinkOrders.js';
 console.log(`Start Order`);
 
 
-
 const name = await input({message: 'Enter your name'});
 console.log(`Hello ${name} `)
 
@@ -21,5 +20,5 @@ const drink = await select(drinkOrders);
 console.log(`${drink} beverage chosen.`);
 console.log(chalk.bold.red(`Your ${drink} beverage is free with your single topping pizza order.`));
 
-//console.log(chalk.blue('Hello') + ' Chalk' + chalk.bold.red(' World!'));
+
 
