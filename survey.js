@@ -23,4 +23,4 @@ const countries = await checkbox({
     ],
 });
 
-console.log(`If you've always wanted to travel to ${countries}, you owe it to yourself to travel there.`)
+console.log(chalk.bold.yellow(`If you've always wanted to travel to ${countries}, you owe it to yourself to travel there.`))

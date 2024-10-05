@@ -5,10 +5,8 @@ import { drinkOrders } from './orders/drinkOrders.js';
 
 console.log(`Start Order`);
 
-
 const name = await input({message: 'Enter your name'});
 console.log(`Hello ${name} `)
-
 
 console.log(`Choose topping:`);
 const pizza = await select(pizzaOrders);
